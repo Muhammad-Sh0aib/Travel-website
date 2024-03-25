@@ -20,7 +20,7 @@ const Packages = () => {
                         <div className='shadow-md border-2 mx-1 mb-4 hover:cursor-pointer hover:shadow-lg rounded-2xl hover:scale-[1.01]  bg-white  overflow-hidden transition-all ease-in-out duration-300'>
                             <img className='w-full rounded-t-xl max-h-[265px] object-cover' src="travel1.jpg" alt='img hare' />
                             <div className='px-6 py-6'>
-                                <h2 className='text-xl font-bold'>Full Europe - All Stunning Places</h2>
+                                <h2 className='text-xl font-bold'>Full New York - All Stunning Places</h2>
                                 <div className='flex justify-between items-center my-4'>
                                     <p className='text-gray-600'>10 days tours</p>
                                     <div className='flex bg-[#ffe8d6] rounded-full gap-2 px-2 py-1 items-center'>
