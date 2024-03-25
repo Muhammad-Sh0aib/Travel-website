@@ -2,7 +2,13 @@ import React from 'react'
 import Carousel from 'react-grid-carousel'
 import { AiFillStar } from "react-icons/ai";
 
+
+
+
 const Packages = () => {
+
+
+
     return (
         <section className='px-6 md:px-24 xl:px-36 mt-40 sm:my-24 '>
             {/* top heading container */}
@@ -14,8 +20,16 @@ const Packages = () => {
             <div>
 
 
-                <Carousel cols={3} rows={1} gap={14} loop={true} scrollSnap responsiveLayout={[{breakpoint: 640,cols: 4,rows: 1,gap: 10}]} >
-                    {/* 1st card */}
+
+
+
+
+
+
+
+
+                {/* <Carousel cols={3} rows={1} gap={14} loop={true}  responsiveLayout={[{breakpoint: 400,cols: 1,rows: 1,gap: 10,loop: true}]} >
+                    
                     <Carousel.Item>
                         <div className='shadow-md border-2 mx-1 mb-4 hover:cursor-pointer hover:shadow-lg rounded-2xl hover:scale-[1.01]  bg-white  overflow-hidden transition-all ease-in-out duration-300'>
                             <img className='w-full rounded-t-xl max-h-[265px] object-cover' src="travel1.jpg" alt='img hare' />
@@ -37,7 +51,7 @@ const Packages = () => {
                         </div>
                     </Carousel.Item>
 
-                    {/* 2nd card */}
+
                     <Carousel.Item>
                         <div className='shadow-md border-2 mx-1 mb-4 hover:cursor-pointer hover:shadow-lg rounded-2xl hover:scale-[1.01]  bg-white  overflow-hidden transition-all ease-in-out duration-300'>
                             <img className='w-full rounded-t-xl max-h-[265px] object-cover' src="travel2.jpg" alt='img hare' />
@@ -59,7 +73,7 @@ const Packages = () => {
                         </div>
                     </Carousel.Item>
 
-                    {/* 3rd card */}
+                  
                     <Carousel.Item>
                         <div className='shadow-md border-2 mx-1 mb-4 hover:cursor-pointer hover:shadow-lg rounded-2xl hover:scale-[1.01] bg-white  overflow-hidden transition-all ease-in-out duration-300'>
                             <img className='w-full rounded-t-xl max-h-[265px] object-cover' src="travel3.jpg" alt='img hare' />
@@ -81,7 +95,7 @@ const Packages = () => {
                         </div>
                     </Carousel.Item>
 
-                    {/* 4th card */}
+                   
                     <Carousel.Item>
                         <div className='shadow-md border-2 mx-1 mb-4 hover:cursor-pointer hover:shadow-lg rounded-2xl hover:scale-[1.01] bg-white  overflow-hidden transition-all ease-in-out duration-300'>
                             <img className='w-full rounded-t-xl max-h-[265px] object-cover' src="travel4.jpg" alt='img hare' />
@@ -103,7 +117,7 @@ const Packages = () => {
                         </div>
                     </Carousel.Item>
 
-                    {/* 5th card */}
+                    
                     <Carousel.Item>
                         <div className='shadow-md border-2 mx-1 mb-4 hover:cursor-pointer hover:shadow-lg rounded-2xl hover:scale-[1.01] bg-white  overflow-hidden transition-all ease-in-out duration-300'>
                             <img className='w-full rounded-t-xl max-h-[265px] object-cover' src="travel1.jpg" alt='img hare' />
@@ -125,7 +139,7 @@ const Packages = () => {
                         </div>
                     </Carousel.Item>
 
-                </Carousel>
+                </Carousel> */}
 
 
 
