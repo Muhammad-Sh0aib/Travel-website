@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-grid-carousel'
+// import Carousel from 'react-grid-carousel'
 import { AiFillStar } from "react-icons/ai";
 
 
